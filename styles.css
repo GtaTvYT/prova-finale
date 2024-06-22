@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('path-to-ai-generated-beach.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    font-family: 'Russo One', sans-serif;
+    color: #00d9ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff00a6;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff33b8;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    color: #ff00a6;
+    margin-bottom: 2rem;
+}
+
+.map-image {
+    width: 80%;
+    height: auto;
+    margin: 2rem 0;
+    border: 2px solid #00d9ff;
+}
+
+
