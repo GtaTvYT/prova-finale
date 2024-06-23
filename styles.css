@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('path-to-ai-generated-beach.jpg') no-repeat center center fixed;
+    background: url('ai_generated_miami_beach.png') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
@@ -44,8 +44,11 @@ main {
 }
 
 .logo {
-    width: 150px;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #00d9ff; /* Colore del bordo */
+    object-fit: cover;
 }
 
 .description {
@@ -83,6 +86,7 @@ h1 {
     font-size: 3rem;
     color: #ff00a6;
     margin-bottom: 2rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Contorno nero */
 }
 
 .map-image {
@@ -91,5 +95,3 @@ h1 {
     margin: 2rem 0;
     border: 2px solid #00d9ff;
 }
-
-
